@@ -30,8 +30,6 @@ self.addEventListener("fetch", async (e) => {
       }
     })()
   );
-
-  self.skipWaiting();
 });
 // Activate the SW
 self.addEventListener("activate", async (e) => {
